@@ -3,7 +3,7 @@ import { Rooms, RoomsList } from './rooms';
 @Component({
   selector: 'hinv-rooms',
   templateUrl: './rooms.component.html',
-  styleUrls: ['./rooms.component.sass']
+  styleUrls: ['./rooms.component.scss']
 })
 export class RoomsComponent {
   hotelName = 'Hilton Hotel'
@@ -27,29 +27,29 @@ export class RoomsComponent {
     {
       roomNumber : 1,
       roomType : 'simple room',
-    ameneties : 'wifi',
-    price : 1000,
-    image : 'unsplash',
-    chekinTime : new Date('11-Nov-2022'),
-    checkoutTime : new Date('12-Nov-2022')
+      ameneties : 'wifi',
+      price : 1000,
+      image : 'unsplash',
+      chekinTime : new Date('11-Nov-2022'),
+      checkoutTime : new Date('12-Nov-2022')
     },
     {
       roomNumber : 2,
       roomType : 'normal room',
-    ameneties : 'wifi',
-    price : 1000,
-    image : 'unsplash',
-    chekinTime : new Date('11-Nov-2022'),
-    checkoutTime : new Date('12-Nov-2022')
+      ameneties : 'wifi',
+      price : 1000,
+      image : 'unsplash',
+      chekinTime : new Date('11-Nov-2022'),
+      checkoutTime : new Date('12-Nov-2022')
     },
     {
       roomNumber : 3,
       roomType : 'delux room',
-    ameneties : 'wifi',
-    price : 1000,
-    image : 'unsplash',
-    chekinTime : new Date('11-Nov-2022'),
-    checkoutTime : new Date('12-Nov-2022')
+      ameneties : 'wifi',
+      price : 1000,
+      image : 'unsplash',
+      chekinTime : new Date('11-Nov-2022'),
+      checkoutTime : new Date('12-Nov-2022')
     }
    ]
   
